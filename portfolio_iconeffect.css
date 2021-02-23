@@ -1,0 +1,289 @@
+.h100 {
+    height: 100vh;
+}
+
+.div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dflex {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+.iconeffect2 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border: 2px solid deepskyblue;
+    list-style: none;
+    border-radius: 50%;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: deepskyblue;
+}
+
+.iconeffect2:before {
+    content: '';
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    background-color: #00bfff70;
+    border-radius: 50%;
+    transition: 2s;
+    opacity: 0;
+    z-index: -1;
+}
+
+.iconeffect2:hover:before {
+    transform: scale(0.8);
+    opacity: 1.1;
+}
+
+.iconeffect1 :hover i {
+    color: #ff0000;
+    opacity: 1;
+}
+
+.icon3 .ul3 .li3 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid dodgerblue;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.icon3 .ul3 .li3 .iconeffect3 {
+    color: deepskyblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 2s;
+}
+
+.icon3 .ul3 .li3 .iconeffect4 {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    transition: 1s;
+    color: red;
+}
+
+.icon3 .ul3 .li3:hover .iconeffect3 {
+    top: -100%;
+    transform: translate(-50%, 0%);
+}
+
+.icon3 .ul3 .li3:hover .iconeffect4 {
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon3 .ul3 .li3 {
+    border: 2px solid green;
+}
+
+.iconeffect1 {
+    border-radius: 50%;
+    color: dodgerblue;
+    margin-top: 30px;
+    transition: 2s;
+}
+
+.iconeffect1:hover {
+    transform: rotatez(360deg);
+}
+
+.icon5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.iconeffect5 {
+    color: dodgerblue;
+    transition: 2s;
+    padding: 30px;
+}
+
+.iconeffect5:hover {
+    transform: rotatey(360deg);
+    background-color: dodgerblue;
+    color: #ffffff;
+}
+
+.icon6 {
+    position: relative;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon6 .p {
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    margin: 0 10px;
+    text-align: center;
+    border-radius: 50%;
+    border: 5px solid;
+    float: left;
+}
+
+.icon6 .p .faicon {
+    color: green;
+    margin-top: 20px;
+}
+
+.icon6 .p:hover:nth-child(n+1) {
+    border: 5px solid #ff0000;
+    box-shadow: 0 0 15px #ff0000;
+}
+
+.icon7 {
+    position: relative;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon7 .p {
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    margin: 0 10px;
+    text-align: center;
+    border-radius: 50%;
+    border: 5px solid;
+    float: left;
+}
+
+.icon7 .p .faicon7 {
+    color: green;
+    margin-top: 20px;
+}
+
+.icon7 .faicon7:hover:nth-child(n+1) {
+    color: red;
+    border-radius: 50%;
+    text-shadow: 0 0 30px #ff0000;
+}
+
+.icon8 {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon8 .faicon8 {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: rgba(128, 128, 128, 0.51);
+    color: green;
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 15px;
+}
+
+.icon8 .faicon8 .i {
+    transition: 0.4s;
+}
+
+.icon8 .faicon8:hover {
+    background: yellow;
+    transform: scale(1.6) rotate(25deg);
+}
+
+.faicon3 {
+    display: inline;
+}
+
+.faeffect9 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 30px;
+    color: deepskyblue;
+}
+
+.faeffect9:hover {
+    border: 2px dashed gray;
+    border-radius: 50%;
+}
+
+.icon10 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    display: flex;
+}
+
+.li10 {
+    margin: 0 40px;
+}
+
+.icon10 .faeffect10 {
+    font-size: 20px;
+    color: lightblue;
+    line-height: 55px;
+    transition: 2s;
+}
+
+.a10 {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: #ff0000;
+    text-align: center;
+    transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0, 0);
+    transition: .5s;
+    box-shadow: -20px 20px 10px gray;
+}
+
+.a10:before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    height: 100%;
+    width: 20px;
+    background: #b1b1b1;
+    transition: .5s;
+    transform: rotate(0deg) skewy(-45deg);
+}
+
+.a10:after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: -10px;
+    height: 20px;
+    width: 100%;
+    background: #b1b1b1;
+    transition: .5s;
+    transform: rotate(0deg) skewx(-45deg);
+}
+
+.a10:hover {
+    transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
+    box-shadow: -50px 50px 10px gray;
+}
